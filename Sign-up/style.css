@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.container{
+    display: flex;
+}
+.zdjencie{
+    border: solid 5px black;
+    padding: 150px;
+        width: 80%;
+        height: 85vh;
+        background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+        background-size: cover;
+        background-position: left; /* Ustawienia pozycji obrazu tła */
+        position: relative;
+    
+}
+
+.logo {
+    position: absolute; /* Ustawiamy pozycję na absolutną, aby logo mogło być umieszczone na zdjęciu */
+    top: 25%; /* Dostosuj wartość top do pożądanej pozycji */
+    left: 0px; /* Dostosuj wartość left do pożądanej pozycji */
+    display: flex; /* Ustawiamy kontener na flexbox */
+    align-items: center; /* Wyrównujemy elementy wzdłuż osi Y */
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 555px;
+    z-index: 0;
+}
+
+.logo img {
+    width: 100px; /* Dostosuj szerokość loga według potrzeb */
+    height: auto; /* Automatycznie dostosowuje wysokość zachowując proporcje */
+    position: relative;
+    left:130px;
+}
+
+.logo .text {
+    margin-left: 10px; /* Dodajemy odstęp między logiem a tekstem */
+    color:white;
+    position: relative;
+    left:130px;
+
+}
+.text{
+    color:white;
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+}
+
+.prawo{
+    margin-left: 290px;
+    background-color: whitesmoke;
+    flex:1;
+    
+}
+.prawoG{
+    margin-top: 180px;
+    font-size: 24px;
+    font-family:sans-serif;
+    font-weight: bold;   
+     z-index: 1;
+}
+
+.prawoS{
+    border:black solid 1px;
+    border-radius: 10px;
+    margin-left: -100px;
+    margin-top: 205px;
+    padding: 100px;
+    background-color: white;
+    display: grid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pojemnik {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column,
+.right-column {
+    flex: 1;
+}
+
+.left-column input,
+.right-column input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-column input[type="text"],
+.left-column input[type="email"],
+.left-column input[type="password"] {
+    margin-right: 10px;
+}
+
+.right-column input[type="text"],
+.right-column input[type="tel"],
+.right-column input[type="password"] {
+    margin-left: 10px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #596D48;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: rgb(143, 156, 132);
+}
+
+.submit-button:active{
+    background-color: #a6aaa1;
+}
+
+.prawoD{
+    font-size: 20px;
+}
+
+a{
+    color:#596D48;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #242c1c;
+}
+
+a:active{
+    color:#5f625c
+}
+
+input {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  input:invalid {
+    border-color: rgb(197, 66, 66);
+  }
+  
+  input:valid {
+    border-color: green;
+  }

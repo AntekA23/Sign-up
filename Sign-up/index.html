@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="Norse-Bold.otf" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="shortcut icon" type="image/ico" href="odin-lined-logo.png">
+</head>
+<body>
+<div class="container">
+    <div class="lewo">
+        <div class="zdjencie"></div>
+        
+        <div class="logo">
+            <img src="odin-lined-logo.png">
+            <div class="text"><p>ODIN</p></div>
+            <div class="cover"></div>
+        </div>
+    </div>
+
+    <div class="prawo">
+        <div class="prawoG">
+            <p>This in not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up now to get started.
+            You know you want to.</p>
+        </div>
+        
+        <div class="prawoS">
+            <div class="pojemnik">
+                <div class="header">
+                    <h1>Let's do it</h1>
+                </div>
+                <form action="#" method="post">
+                    <div class="form">
+                        <div class="left-column">
+                            <input type="text" placeholder="Imię" required>
+                            <input type="email" id="user_email" name="email" placeholder="Email" required>
+                            <input type="password"  placeholder="Hasło" minlength="4" required>
+                        </div>
+                        <div class="right-column">
+                            <input type="text" placeholder="Nazwisko" required>
+                            <input type="tel" placeholder="Numer telefonu" pattern="[0-9]{9}" required>
+                            <input type="password" placeholder="Potwierdź hasło" minlength="4" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-button">Potwierdź</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="prawoD">
+            <p>Already have an account? <a href="https://www.example.com"><strong>Log in</strong></a></p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
